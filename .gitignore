@@ -1,4 +1,6 @@
-/.vscode
+.vscode/
+.Debug/
+.settings/
 *.dep
 *.ewd
 *.ewp
