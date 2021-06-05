@@ -72,11 +72,11 @@
 #define PortF_Pin4_ID (uint8)42
 
 /* Number of the configured pins  */
-#define PORT_CONFIGURED_PORTPINS (2U)
+#define PORT_CONFIGURED_PORTPINS (43U)
 
 /* Channel Index in the array of structures in Dio_PBcfg.c */
-#define PORT_PIN_LED1_INDEX (uint8)0x00
-#define PORT_PIN_SW1_INDEX (uint8)0x01
+// #define PORT_PIN_LED1_INDEX (uint8)0x00
+// #define PORT_PIN_SW1_INDEX (uint8)0x01
 
 /* Switches the Development Error Detection and Notification on or off.
 true: Enabled. false: Disabled. */
