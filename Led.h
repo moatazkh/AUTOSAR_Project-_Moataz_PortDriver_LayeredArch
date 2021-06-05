@@ -14,7 +14,7 @@
 #include "Std_Types.h"
 
 /* Set the led ON/OFF according to its configuration Positive logic or negative logic */
-#define LED_ON  STD_HIGH
+#define LED_ON STD_HIGH
 #define LED_OFF STD_LOW
 
 /* Set the LED Port */
@@ -27,7 +27,7 @@
  *              2. Set the PIN direction which the led is connected as OUTPUT pin
  *		3. Initialize the led ON/OFF according to the initial value 
  */
-void LED_init(void);
+// void LED_init(void);
 
 /* Description: Set the LED state to ON */
 void LED_setOn(void);
