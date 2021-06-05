@@ -19,13 +19,13 @@
 void Init_Task(void)
 {
     /* Initialize Port Driver */
-    // Port_Init(Port_Configuration);
+    Port_Init(Port_Configuration);
 
-    /* Initialize LED Driver */
-    LED_init();
+    // /* Initialize LED Driver */
+    // LED_init();
 
-    /* Initialize BUTTON Driver */
-    BUTTON_init();
+    // /* Initialize BUTTON Driver */
+    // BUTTON_init();
 
     /* Initialize Dio Driver */
     Dio_Init(&Dio_Configuration);
